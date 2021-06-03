@@ -1,0 +1,186 @@
+/* 320 px */
+@keyframes MoveUpDownOne {
+    0%, 100% {
+        top: 10%;
+    }
+    50% {
+        top: 13%;
+    }
+}
+
+@keyframes MoveUpDownTwo {
+    0%, 100% {
+        top: 20%;
+    }
+    50% {
+        top: 23%;
+    }
+}
+
+@keyframes MoveUpDownThree {
+    0%, 100% {
+        top: 75%;
+    }
+    50% {
+        top: 78%;
+    }
+}
+
+.cloud-one {
+    animation: MoveUpDownOne 2s linear infinite;
+    width: 120px;
+    position: absolute;
+    right: 5%;
+    top: 10%;
+}
+
+.cloud-two {
+    animation: MoveUpDownTwo 2.3s linear infinite;
+    width: 120px;
+    position: absolute;
+    left: 2%;
+    top: 20%;
+}
+
+.cloud-three {
+    animation: MoveUpDownThree 2.5s linear infinite;
+    width: 120px;
+    position: absolute;
+    right: 25%;
+    top: 75%;
+    z-index: 2;
+}
+
+.flagpole {
+    width: 130px;
+    position: absolute;
+    right: 15%;
+    bottom: 0;
+    z-index: 1;
+}
+
+/* 768px */
+@media only screen and (min-width: 768px) {
+    @keyframes MoveUpDownOne {
+        0%, 100% {
+            top: 10%;
+        }
+        50% {
+            top: 13%;
+        }
+    }
+    
+    @keyframes MoveUpDownTwo {
+        0%, 100% {
+            top: 20%;
+        }
+        50% {
+            top: 23%;
+        }
+    }
+    
+    @keyframes MoveUpDownThree {
+        0%, 100% {
+            top: 75%;
+        }
+        50% {
+            top: 78%;
+        }
+    }
+    
+    .cloud-one {
+        animation: MoveUpDownOne 2s linear infinite;
+        width: 200px;
+        position: absolute;
+        right: 5%;
+        top: 10%;
+    }
+    
+    .cloud-two {
+        animation: MoveUpDownTwo 2.3s linear infinite;
+        width: 200px;
+        position: absolute;
+        left: 2%;
+        top: 20%;
+    }
+    
+    .cloud-three {
+        animation: MoveUpDownThree 2.5s linear infinite;
+        width: 200px;
+        position: absolute;
+        right: 25%;
+        top: 75%;
+        z-index: 2;
+    }
+    
+    .flagpole {
+        width: 160px;
+        position: absolute;
+        right: 15%;
+        bottom: 0;
+        z-index: 1;
+    }
+}
+
+/* 1100px + */
+@media only screen and (min-width: 1100px) {
+    @keyframes MoveUpDownOne {
+        0%, 100% {
+          top: 20%;
+        }
+        50% {
+            top: 23%;
+        }
+    }
+    
+    @keyframes MoveUpDownTwo {
+        0%, 100% {
+            top: 45%;
+        }
+        50% {
+            top: 48%;
+        }
+    }
+    
+    @keyframes MoveUpDownThree {
+        0%, 100% {
+            top: 65%;
+        }
+        50% {
+            top: 68%;
+        }
+    }
+    
+    .cloud-one {
+        animation: MoveUpDownOne 2s linear infinite;
+        position: absolute;
+        width: auto;
+        right: 10%;
+        top: 20%;
+    }
+    
+    .cloud-two {
+        animation: MoveUpDownTwo 2.3s linear infinite;
+        position: absolute;
+        width: auto;
+        left: 5%;
+        top: 45%;
+    }
+    
+    .cloud-three {
+        animation: MoveUpDownThree 2.5s linear infinite;
+        position: absolute;
+        width: auto;
+        right: 25%;
+        top: 65%;
+        z-index: 2;
+    }
+    
+    .flagpole {
+        position: absolute;
+        width: 180px;
+        right: 25%;
+        bottom: 0;
+        z-index: 1;
+    }
+}

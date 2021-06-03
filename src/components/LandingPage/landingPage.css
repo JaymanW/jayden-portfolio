@@ -1,0 +1,24 @@
+.landing-page {
+    background: #5AC4FF;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    font-family: "Press Start 2P", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-text {
+    color: #fff;
+    text-align: center;
+}
+
+.landing-text h1 {
+    line-height: 125%;
+    font-size: 3rem;
+}
+
+.landing-text p {
+    margin-top: 1rem;
+}
