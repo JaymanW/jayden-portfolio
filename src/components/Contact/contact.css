@@ -1,3 +1,12 @@
+@keyframes RotateRight {
+    0%, 100% {
+        transform: rotateZ(0deg);
+    }
+    50% {
+        transform: rotateZ(20deg);
+    }
+}
+
 .contact-wrapper {
     padding-top: 4rem;
     display: flex;
@@ -14,6 +23,7 @@
 }
 
 .contact-page > img {
+    animation: RotateRight 4s linear infinite;
     width: 120px;
 }
 
@@ -21,3 +31,4 @@
     font-family: "Press Start 2P", sans-serif;
     margin-top: 1rem;
 }
+

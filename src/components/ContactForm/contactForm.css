@@ -40,6 +40,13 @@
     font-size: 1.2rem
 }
 
+.form-success {
+    font-family: "Roboto Condensed";
+    font-size: 1.1rem;
+    text-align: center;
+    color: rgb(35, 190, 35);
+}
+
 @media only screen and (min-width: 768px) {
     .contact-form {
         margin-top: 2rem;

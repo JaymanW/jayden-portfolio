@@ -3,7 +3,7 @@ import './contactForm.css'
 
 const axios = require('axios');
 
-function ContactForm() {
+function ContactForm(props) {
     const [windowWidth, setWindowWidth] = useState(null);
     const [formSize, setFormSize] = useState(300);
 
@@ -14,6 +14,8 @@ function ContactForm() {
     const [nameError, setNameError] = useState('none');
     const [emailError, setEmailError] = useState('none');
     const [messageError, setMessageError] = useState('none');
+
+    const [formSubmitted, setFormSubmitted] = useState(false);
 
     useEffect(() => {
         updateWindowWidth();
@@ -96,6 +98,10 @@ function ContactForm() {
               .catch(function (error) {
                 console.log(error);
               });
+            setName('');
+            setEmail('');
+            setMessage('');
+            setFormSubmitted(true);
         }
     }
     
@@ -108,6 +114,8 @@ function ContactForm() {
     
     return (
         <form onSubmit={handleSubmit} className="contact-form" style={{width: `${formSize}px`}}>
+        {formSubmitted ? <span className="form-success">Form submitted. I'll get back to you in the next 24 hours!</span> : null}
+        
         <label>
           Name
           <span className="form-error" style={{display: nameError}}>*Please enter a name.</span>
