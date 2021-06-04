@@ -5,7 +5,6 @@ function Blinker(props) {
     const [visibility, setVisibility] = useState("visible")
     
     useEffect(() => {
-        console.log(props.isBlinking)
         let visibilityInterval;
 
         visibilityInterval = setInterval(() => {

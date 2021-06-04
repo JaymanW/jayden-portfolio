@@ -1,0 +1,17 @@
+.projects-wrapper {
+    background: #000;
+    padding-top: 5rem;
+}
+
+.projects-page {
+    margin: 0 auto;
+    max-width: 1200px;
+    min-height: 70vh;
+}
+
+.projects-page h2 {
+    font-family: "Press Start 2P", sans-serif;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}

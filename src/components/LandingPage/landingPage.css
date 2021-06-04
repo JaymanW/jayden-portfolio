@@ -1,3 +1,7 @@
+.landing-wrapper {
+    background: #5AC4FF;
+}
+
 .landing-page {
     background: #5AC4FF;
     position: relative;
@@ -7,6 +11,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .landing-text {

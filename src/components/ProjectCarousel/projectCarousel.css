@@ -1,0 +1,22 @@
+.project-carousel {
+    margin-top: 5rem;
+}
+
+.project-carousel a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.project-carousel p {
+    padding-left: 0.5rem
+}
+
+.carousel-arrow {
+    background: transparent;
+}
+
+#surrounding .BrainhubCarousel__arrows {
+    background-color: transparent;
+}
