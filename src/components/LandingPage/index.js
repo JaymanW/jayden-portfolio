@@ -24,4 +24,13 @@ function LandingPage() {
     )
 }
 
+/* <div className="socials-cnt">
+                        <a href="https://github.com/JaymanW" target="_blank">
+                            <img src="./github60.png" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/jaydenwatts/" target="_blank">
+                            <img src="./linkedin60.png" />
+                        </a>
+                </div> */
+
 export default LandingPage

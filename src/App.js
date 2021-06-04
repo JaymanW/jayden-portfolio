@@ -4,6 +4,7 @@ import './App.css';
 import LandingPage from './components/LandingPage';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <LandingPage />
       <AboutMe />
       <Projects />
+      <Contact />
     </div>
   );
 }
