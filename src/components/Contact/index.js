@@ -12,7 +12,7 @@ function Contact() {
     }
     
     return (
-        <div className="contact-wrapper">
+        <div id="contact-wrapper">
             <div className="contact-page">
                 <img src="hammer250.png" />
                 <h2>let's create</h2>

@@ -11,3 +11,16 @@ footer > p {
     font-family: "Press Start 2P", sans-serif;
     font-size: 0.8rem;
 }
+
+/* footer a {
+    height: 30px;
+    width: 30px;
+} */
+
+footer img {
+    width: 20px;
+}
+
+footer a:nth-child(n+2) {
+    margin-left: 0.75rem;
+}

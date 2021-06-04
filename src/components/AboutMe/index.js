@@ -8,7 +8,7 @@ function AboutMe() {
                 <div className="about-cnt">
                     <img src="./jaydenProfile230.png" />
                     <h2>about me</h2>
-                    <p>Welcome to my page! My name is Jayden Watts and a I am Web Designer/Developer from Minnesota. My passion lies at the crossroads of people and technology. I am driven by using my technical skills to provide professional, real-world web solutions. Let's get in <a href="#contact">contact</a> and create something awesome together.</p>
+                    <p>Welcome to my page! My name is Jayden Watts and I am a Web Designer/Developer from Minnesota. My passion lies at the crossroads of people and technology. I am driven by utilizing my technical skills to provide professional, real-world web solutions. Let's get in <a href="#contact-wrapper">contact</a> and create something awesome together.</p>
                 </div>
             </div>
             

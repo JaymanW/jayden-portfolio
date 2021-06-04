@@ -15,6 +15,30 @@
     margin: 0 auto;
 }
 
+.landing-nav {
+    position: absolute;
+    width: 95%;
+    margin: 0 auto;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.landing-nav img {
+    width: 30px;
+}
+
+.landing-nav a {
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+.landing-nav a:nth-child(n+2) {
+    margin-left: 1rem;
+}
+
 .landing-text {
     color: #fff;
     text-align: center;
@@ -29,11 +53,59 @@
     margin-top: 1rem;
 }
 
-/* .socials-cnt img {
-    margin-top: 0.75rem;
-    width: 40px;
+@media only screen and (min-width: 768px) {
+    .landing-wrapper {
+        background: #5AC4FF;
+    }
+    
+    .landing-page {
+        background: #5AC4FF;
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        font-family: "Press Start 2P", sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .landing-nav {
+        position: absolute;
+        width: 95%;
+        margin: 0 auto;
+        top: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-top: 1rem;
+    }
+    
+    .landing-nav img {
+        width: 40px;
+    }
+    
+    .landing-nav a {
+        font-size: 1rem;
+        color: #fff;
+    }
+    
+    .landing-nav a:nth-child(n+2) {
+        margin-left: 1rem;
+    }
+    
+    .landing-text {
+        color: #fff;
+        text-align: center;
+    }
+    
+    .landing-text h1 {
+        line-height: 125%;
+        font-size: 3rem;
+    }
+    
+    .landing-text p {
+        margin-top: 1rem;
+    }
 }
-
-.socials-cnt a:nth-child(n+2) {
-    margin-left: 0.5rem;
-} */
